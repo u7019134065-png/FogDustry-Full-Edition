@@ -1,0 +1,26 @@
+name: repair-fog
+type: RepairTurret
+
+localizedName: RepairFog
+description: Repairs nearby damaged allied targets using plastanium support.
+
+size: 2
+health: 350
+buildTime: 180
+
+category: turret
+buildVisibility: shown
+
+requirements: [
+  copper/80
+  lead/120
+  plastanium/40
+  silicon/30
+]
+
+powerUse: 1.5
+range: 120
+repairSpeed: 2.8
+targetHealing: true
+
+research: lite-turret

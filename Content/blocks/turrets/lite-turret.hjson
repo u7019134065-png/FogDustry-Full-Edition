@@ -1,0 +1,102 @@
+name: lite-turret
+type: ItemTurret
+
+localizedName: Lite-Turret
+description: Compact multi-ammo turret.
+
+size: 3
+health: 500
+buildTime: 180
+
+category: turret
+buildVisibility: shown
+
+requirements: [
+  copper/100
+  lead/250
+]
+
+targetAir: true
+targetGround: true
+
+range: 220
+
+reloadTime: 20
+
+inaccuracy: 0
+shootCone: 15
+
+rotateSpeed: 10
+
+ammoUseEffect: none
+
+maxAmmo: 30
+
+ammoTypes: {
+  scrap: {
+    type: BasicBulletType
+
+    damage: 6
+    speed: 4
+    lifetime: 55
+
+    width: 7
+    height: 9
+
+    ammoMultiplier: 2
+  }
+
+  copper: {
+    type: BasicBulletType
+
+    damage: 3
+    speed: 4
+    lifetime: 55
+
+    width: 6
+    height: 8
+
+    ammoMultiplier: 2
+  }
+
+  lead: {
+    type: BasicBulletType
+
+    damage: 4
+    speed: 4
+    lifetime: 55
+
+    width: 6
+    height: 8
+
+    ammoMultiplier: 2
+  }
+
+  titanium: {
+    type: BasicBulletType
+
+    damage: 9
+    speed: 5
+    lifetime: 55
+
+    width: 7
+    height: 9
+
+    ammoMultiplier: 2
+  }
+
+  thorium: {
+    type: BasicBulletType
+
+    damage: 15
+    speed: 6
+    lifetime: 60
+
+    width: 8
+    height: 10
+
+    ammoMultiplier: 2
+  }
+}
+
+research: duo

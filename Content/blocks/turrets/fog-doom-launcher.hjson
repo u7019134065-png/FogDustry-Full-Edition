@@ -1,0 +1,68 @@
+name: fog-doom-launcher
+type: PowerTurret
+
+localizedName: FogDoomLauncher
+description: Power turret that launches an enormous missile with absurd blast damage.
+
+size: 7
+health: 12000
+buildTime: 1200
+
+category: turret
+buildVisibility: shown
+
+requirements: [
+  copper/5000
+  lead/5000
+  silicon/3000
+  thorium/2000
+  surge-alloy/800
+  plastanium/1200
+]
+
+powerUse: 16666.7
+
+range: 1500
+reloadTime: 1200
+shootCone: 5
+rotateSpeed: 1.5
+recoil: 10
+shake: 18
+targetAir: true
+targetGround: true
+targetBlocks: true
+alwaysShooting: false
+
+shootType: {
+  type: MissileBulletType
+  sprite: missile
+
+  damage: 5000000
+  speed: 2.0
+  lifetime: 260
+
+  width: 16
+  height: 18
+
+  splashDamage: 1000000
+  splashDamageRadius: 1000
+
+  hitEffect: impactReactorExplosion
+  despawnEffect: impactReactorExplosion
+  shootEffect: shootSmokeMissile
+
+  collidesAir: true
+  collidesGround: true
+  collidesTiles: true
+  hittable: false
+  reflectable: false
+  absorbable: false
+  splashDamagePierce: true
+  buildingDamageMultiplier: 1.0
+  incendAmount: 80
+  incendSpread: 40
+  makeFire: true
+  ammoMultiplier: 1
+}
+
+research: duo
