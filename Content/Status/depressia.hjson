@@ -1,0 +1,16 @@
+name: depressia
+type: StatusEffect
+
+localizedName: Depressia
+description: A painful effect that drains health over time.
+
+color: 7a6b9c
+
+damage: 0
+intervalDamageTime: 60
+intervalDamage: 3
+
+speedMultiplier: 0.9
+reloadMultiplier: 0.9
+show: true
+outline: true

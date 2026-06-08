@@ -1,0 +1,22 @@
+name: sick
+type: StatusEffect
+
+localizedName: Sick
+description: Slows the target, weakens its damage and deals damage every 3 seconds.
+
+color: 7aa36b
+
+speedMultiplier: 0.55
+damageMultiplier: 0.75
+reloadMultiplier: 0.8
+buildSpeedMultiplier: 0.7
+dragMultiplier: 1.2
+
+damage: 0
+intervalDamageTime: 180
+intervalDamage: 25
+intervalDamagePierce: false
+
+show: true
+outline: true
+permanent: false

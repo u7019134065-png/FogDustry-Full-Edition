@@ -1,0 +1,16 @@
+name: lethality
+type: StatusEffect
+
+localizedName: Lethality
+description: A delayed death effect.
+
+color: ff2d2d
+
+damage: 0
+intervalDamageTime: 600
+intervalDamage: 50000
+intervalDamagePierce: true
+
+show: true
+outline: true
+permanent: false
