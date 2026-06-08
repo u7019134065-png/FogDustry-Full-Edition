@@ -1,0 +1,15 @@
+name: fogliquid
+type: Liquid
+
+localizedName: FogLiquid
+description: A hot, flammable liquid used by FogDustry reactors.
+
+color: 7d2cff
+flammability: 1
+temperature: 1
+heatCapacity: 0.12
+coolant: false
+explosiveness: 0.7
+effect: burning
+
+research: copper
