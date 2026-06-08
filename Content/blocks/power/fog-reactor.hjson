@@ -1,0 +1,39 @@
+name: fog-reactor
+type: ConsumeGenerator
+
+localizedName: Fog Reactor
+description: Uses FogLiquid to generate strong power. Reactor-style explosion on destruction.
+
+size: 9
+health: 3000
+buildTime: 900
+category: power
+buildVisibility: shown
+
+requirements: [
+  copper/1200
+  silicon/900
+  thorium/600
+  plastanium/250
+  phase-fabric/120
+]
+
+powerProduction: 200
+
+consumes: {
+  liquid: fogliquid/0.25
+}
+
+explodeOnFull: false
+explosionRadius: 50
+explosionDamage: 3000
+explodeEffect: reactorExplosion
+explosionPuddles: 20
+explosionPuddleRange: 24
+explosionPuddleAmount: 200
+explosionPuddleLiquid: fogliquid
+explosionMinWarmup: 0.65
+explosionShake: 14
+explosionShakeDuration: 12
+
+research: thorium-reactor
