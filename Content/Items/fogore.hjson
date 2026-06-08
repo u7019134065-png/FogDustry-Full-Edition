@@ -1,0 +1,11 @@
+name: fogore
+type: Item
+
+localizedName: FogOre
+description: A common resource ore of FogDustry.
+
+color: 7f8a8f
+hardness: 0
+alwaysUnlocked: true
+
+research: copper
