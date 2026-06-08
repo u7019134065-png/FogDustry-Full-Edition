@@ -1,0 +1,28 @@
+name: t5-shieldfog-factory
+type: Reconstructor
+
+localizedName: T5-ShieldFog-factory
+description: Reconstructs ShieldFogRTX into ShieldFogRTXHD.
+
+size: 5
+health: 2200
+buildTime: 840
+constructTime: 540
+
+category: units
+buildVisibility: shown
+
+requirements: [
+  copper/1000
+  lead/800
+  silicon/600
+  thorium/300
+  phase-fabric/180
+  surge-alloy/120
+]
+
+consumePower: 10
+
+upgrades: [
+  [shieldfogrtx, shieldfogrtxhd]
+]

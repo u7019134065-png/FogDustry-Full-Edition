@@ -1,0 +1,30 @@
+name: t2-fog-factory
+type: Reconstructor
+
+localizedName: T2-Fog-factory
+description: Reconstructs Fog units into stronger versions.
+
+size: 3
+health: 700
+
+category: units
+buildVisibility: shown
+
+requirements: [
+  copper/220
+  lead/180
+  silicon/120
+  thorium/40
+]
+
+consumePower: 3.5
+
+constructTime: 300
+
+upgrades: [
+  [fog, fogkadze]
+  [fogdoctor, fogtdoctor]
+  [shieldfog, shieldfoghd]
+]
+
+research: fog-units-t1

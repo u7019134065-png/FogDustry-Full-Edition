@@ -1,0 +1,32 @@
+name: t3-fog-factory
+type: Reconstructor
+
+localizedName: T3-Fog-factory
+description: Advanced Fog reconstruction platform.
+
+size: 5
+health: 1400
+
+category: units
+buildVisibility: shown
+
+requirements: [
+  copper/450
+  lead/350
+  silicon/260
+  thorium/180
+  surge-alloy/90
+]
+
+consumePower: 7
+
+constructTime: 600
+
+upgrades: [
+  [fogtdoctor, airshipfog]
+  [fogbomb, codefog]
+  [foglite, fogtitan]
+  [shieldfoghd, shieldfoghdr]
+]
+
+research: fog-units-t2

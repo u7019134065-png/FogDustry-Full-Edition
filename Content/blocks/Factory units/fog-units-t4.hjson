@@ -1,0 +1,27 @@
+name: t4-shieldfog-factory
+type: Reconstructor
+
+localizedName: T4-ShieldFog-factory
+description: Reconstructs ShieldFogHDR into ShieldFogRTX.
+
+size: 5
+health: 1400
+buildTime: 540
+constructTime: 360
+
+category: units
+buildVisibility: shown
+
+requirements: [
+  copper/600
+  lead/420
+  silicon/300
+  thorium/180
+  phase-fabric/80
+]
+
+consumePower: 7
+
+upgrades: [
+  [shieldfoghdr, shieldfogrtx]
+]

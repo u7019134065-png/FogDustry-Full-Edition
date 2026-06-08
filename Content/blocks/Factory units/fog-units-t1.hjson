@@ -1,0 +1,84 @@
+name: fog-units-t1
+type: UnitFactory
+
+localizedName: FogUnits T1
+description: Produces basic FogDustry units.
+
+size: 3
+health: 450
+
+category: units
+buildVisibility: shown
+
+requirements: [
+  copper/120
+  lead/90
+  silicon/40
+]
+
+consumePower: 1.5
+
+plans: [
+  {
+    unit: fog
+    requirements: [
+      copper/120
+      lead/90
+      silicon/40
+    ]
+    time: 180
+  }
+
+  {
+    unit: foglite
+    requirements: [
+      copper/80
+      lead/60
+      silicon/20
+    ]
+    time: 120
+  }
+
+  {
+    unit: fogwalk
+    requirements: [
+      copper/180
+      lead/140
+      silicon/60
+      thorium/30
+    ]
+    time: 300
+  }
+
+  {
+    unit: fogbomb
+    requirements: [
+      copper/260
+      lead/220
+      silicon/120
+      thorium/80
+    ]
+    time: 420
+  }
+
+  {
+    unit: fogdoctor
+    requirements: [
+      copper/120
+      lead/90
+      silicon/40
+    ]
+    time: 180
+  }
+
+  {
+    unit: shieldfog
+    requirements: [
+      copper/500
+      silicon/100
+    ]
+    time: 600
+  }
+]
+
+research: ground-factory
