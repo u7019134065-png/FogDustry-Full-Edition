@@ -1,0 +1,9 @@
+name: fog-ore
+type: OreBlock
+
+localizedName: FogOre
+description: Ore overlay that drops FogOre.
+
+itemDrop: fogore
+mapColor: 7f8a8f
+variants: 0
